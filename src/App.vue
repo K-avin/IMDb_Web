@@ -4,12 +4,12 @@
 
 <script>
 // window.jquery =
-//   window.jQuery = require("admin-lte/plugins/jquery/jquery.min.js"); // jQuery
+  // window.jQuery = require(""); // jQuery
 // require("admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js"); // Bootstrap 4
-// require("admin-lte/build/js/AdminLTE.js"); // AdminLTE App
+// require("admin-lte/build/js/AdminLTE.js"); // AdminLTE App./assets/js/main
 
 import { nextTick } from "vue";
-
+import './assets/js/main.js'
 export default {
   name: "App",
 
@@ -46,7 +46,7 @@ export default {
       nextTick(() => {
         setTimeout(function () {
           self.addClassToApp();
-          // self.addScriptFile("/js/jquery.min.js");
+          // self.addScriptFile("/assets/js/main.js");
           // self.addScriptFile("/js/bootstrap.bundle.min.js");
           // self.addScriptFile("/js/adminlte.min.js");
           // self.addScriptFile("/js/demo.js");
@@ -57,9 +57,7 @@ export default {
 };
 </script>
 <!-- Theme style -->
-<style lang="scss" src="admin-lte/build/scss/adminlte.scss" ></style>
-
-
+<style src="./assets/css/main.css"></style>
 <style>
 #app {
   margin: 0;

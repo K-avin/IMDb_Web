@@ -11,9 +11,10 @@ import ApiService from "./common/api.service";
 ApiService.init();
 
 require("./common/interceptors");
-require("./common/guards");
+// require("./common/guards");
 
 const app = createApp(App);
+
 
 app.mixin(mixin);
 

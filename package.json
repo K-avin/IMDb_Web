@@ -13,6 +13,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "googlemaps-vue3": "^2.0.4",
+    "jquery": "^3.6.0",
     "moment": "^2.29.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",

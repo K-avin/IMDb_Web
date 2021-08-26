@@ -17,7 +17,7 @@ const router = createRouter({
 
 router.beforeEach((toRoute, fromRoute, next) => {
   window.document.title =
-    toRoute.meta && toRoute.meta.title ? toRoute.meta.title : "Home";
+    toRoute.meta && toRoute.meta.title ? toRoute.meta.title : "Moveez";
 
   next();
 });
